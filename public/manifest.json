@@ -1,0 +1,8 @@
+{
+  "short_name": "Zen Weather",
+  "name": "Zen Weather",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

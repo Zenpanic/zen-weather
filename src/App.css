@@ -1,0 +1,125 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #10316b;
+  color: #ffce63;
+  font-family: Consolas, Monaco, 
+    Lucida Console, Liberation Mono, 
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, 
+    Courier New, monospace;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+.globalContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.mainTitle {
+  max-width: 350px;
+  width: 100%;
+  margin: 1em auto 2em auto;
+  display: block;
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 70%;
+}
+
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchButton {
+  background-color: #10316b;
+  color: #ffce63;
+  outline: none;
+}
+
+.titleContainer {
+  display: flex;
+  margin: 1.7em 0 1.5em 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.titleContainer > h1 {
+  margin: 0;
+  font-size: 1.8em;
+  padding: 0.5em 1em;
+}
+
+.titleContainer > img {
+  max-width: 64px;
+  object-fit: fill;
+  background-color: #4d7dcf;
+  border-radius: 15px;
+  border: 2px solid#ffce63;
+}
+
+.resultContainer {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.weatherData {
+  color: #DD8546;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.timeContainer {
+  text-align: center;
+}
+
+.moveButton {
+  padding: 0 1em;
+  font-weight: 800;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.deactivatedButton {
+  padding: 0 1em;
+  font-weight: 800;
+  font-size: 1.5em;
+  color: #777777;
+}
+
+.credit {
+  text-align: center;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: underline;
+  color:  #DD8546;
+  font-weight: 600;
+}
+
+.errorContainer {
+  margin-top: 2em;
+}
+
+.cityError {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-style: normal;
+  color: #b12436;
+}
